@@ -1,0 +1,17 @@
+create table exam_result(
+id int,
+name varchar(50),
+chinese decimal(3,1),
+math decimal(3,1),
+english decimal(3,1)
+);
+
+insert into exam_result(id,name,chinese,math,english) values
+(1,'tom',67,98,56),
+(2,'jerry',87.5,78,77),
+(3,'cat',88,98,90),
+(4,'dog',82,84,67),
+(5,'bird',55.5,85,45),
+(6,'jack',70,73,78.5),
+(7,'king',75,65,30);
+
