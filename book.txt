@@ -1,0 +1,9 @@
+mysql> use test;
+mysql> create table book(name varchar(50),author varchar(30),price decimal(3,1),type varchar(30));
+mysql> desc book;
+mysql> insert into book values
+    -> ('水浒传','施耐庵',35.5,'名著'),
+    -> ('西游记','吴承恩',40,'名著'),
+    -> ('红楼梦','曹雪芹',42.5,'名著'),
+    -> ('三国演义','罗贯中',41,'名著');
+mysql> select * from book;
