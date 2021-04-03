@@ -1,0 +1,6 @@
+mysql> create table teacher(name varchar(30),age int,height decimal(3,1),weight decimal(3,1),sex varchar(20),education varchar(20),birthday varchar(30),IDnumber varchar(30));
+mysql> insert into teacher values
+    ->  ('张三',25,65,50.5,'女','本科','1996','654001196905040666'),
+    ->  ('李四',22,70,55,'女','本科','1999','654001199905080766'),
+    ->  ('王五',27,72,56,'女','本科','1994','654001199403080867');
+mysql> select * from teacher;
