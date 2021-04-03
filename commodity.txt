@@ -1,0 +1,7 @@
+mysql> create table commodity(name varchar(30),price decimal(3,1),stock int,describtion varchar(30));
+mysql> insert into commodity values
+    -> ('卫生纸',18.5,100,'生活用品'),
+    -> ('泡面',5,50,'食品'),
+    -> ('沐浴露',34.6,200,'生活用品'),
+    -> ('面包',6,78,'食品');
+mysql> select * from commodity;
