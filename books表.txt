@@ -1,0 +1,8 @@
+create table books(name varchar(50),author varchar(30),price decimal(5,2),publish_date datetime);
+insert into books values
+('aaa','a',60,'2020-05-04 20:00:00'),
+('bbb','b',20,'2020-09-08 13:00:00'),
+('ccc',null,70,'2021-03-01 15:00:00');
+insert into books values('ddd',null,20,'2020-09-09 14:00:00');
+select * from books;
+select * from books where author is not null or price > 50 and publish_date > '2020-01-01 00:00:00';
