@@ -1,0 +1,10 @@
+create table user(id int,accout varchar(20),amount int);
+insert into user values
+(1,'123',1000),
+(2,'345',5000),
+(4,'456',500),
+(300,null,6000),
+(450,'567',2000),
+(600,'789',1200);
+select * from user;
+select * from user where (id between 1 and 200 or id between 300 and 500) and accout is not null and amount > 1000;
